@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/scss/bootstrap-reboot';
+@import '~bootstrap/scss/bootstrap-grid';
+
+html,body{
+  height: 100%
+}
+
+.col{
+  background-color: red;
+  padding: 10px;
+  margin: 3px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+}
+
+.row-header{ height: 10% }
+.row-main  { height: 82% }
+.row-footer{ height: 8% }
+
+.fill {
+    height: 100%;
+    width: 100%;
+}
